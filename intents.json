@@ -1,0 +1,257 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "Hello",
+        "Good morning",
+        "Good evening",
+        "Is anyone there?",
+        "Greetings"
+      ],
+      "responses": [
+        "Hello! Welcome to the PCCOE MCA Department chatbot. How can I assist you today?",
+        "Hi there! Happy to help with your questions about the MCA program at PCCOE.",
+        "Greetings! What information are you looking for regarding our MCA department?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye",
+        "See you later",
+        "Goodbye",
+        "Okay bye",
+        "That's all"
+      ],
+      "responses": [
+        "Goodbye! Feel free to ask if you have more questions later.",
+        "Have a great day! Thanks for visiting the PCCOE MCA section.",
+        "See you soon! Take care."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Thanks",
+        "Thank you",
+        "That's helpful",
+        "Thanks a lot!",
+        "Appreciate it"
+      ],
+      "responses": [
+        "You're welcome!",
+        "Happy to help!",
+        "My pleasure! Is there anything else I can assist with?",
+        "Any time! Let me know if more questions arise."
+      ]
+    },
+    {
+      "tag": "about_pccoe_mca",
+      "patterns": [
+        "Tell me about the MCA department",
+        "What is special about MCA at PCCOE?",
+        "Why choose PCCOE for MCA?",
+        "About the MCA program",
+        "Department details"
+      ],
+      "responses": [
+        "PCCOE's MCA department offers a comprehensive 2-year program focusing on advanced computer applications, software development, and industry-relevant skills. We emphasize practical learning and strong placements. You can find more details here: https://www.pccoe.org/mca/about-us",
+        "Our MCA program at PCCOE is known for its experienced faculty, state-of-the-art labs (like AI/ML Lab, IoT Lab), strong industry connections, and excellent placement record. Learn more: https://www.pccoe.org/mca/overview"
+      ]
+    },
+    {
+      "tag": "admission_procedure",
+      "patterns": [
+        "How do I apply for MCA?",
+        "What is the admission process?",
+        "MCA admission procedure?",
+        "Application process",
+        "How to get admission in MCA?"
+      ],
+      "responses": [
+        "Admissions to the MCA program at PCCOE follow DTE Maharashtra guidelines, typically requiring a valid MAH-MCA-CET score and participation in the Centralized Admission Process (CAP). You can find the detailed procedure and updates on our admissions page: https://www.pccoe.org/admissions/mca/procedure",
+        "The admission process involves qualifying the MAH-MCA-CET, participating in the CAP rounds, document verification, and completing college admission formalities. Check the latest steps here: https://www.pccoe.org/admissions/mca/how-to-apply"
+      ]
+    },
+    {
+        "tag": "admission_eligibility",
+        "patterns": [
+          "What are the eligibility criteria for MCA?",
+          "Who can apply for MCA?",
+          "MCA eligibility requirements?",
+          "Minimum percentage for MCA?",
+          "Do I need maths for MCA admission?"
+        ],
+        "responses": [
+          "Eligibility generally requires a Bachelor's degree (like BCA, B.Sc. Comp Sci/IT, or specific degrees with Mathematics at 10+2/Graduation) with minimum 50% marks (45% for reserved categories from Maharashtra) and a non-zero score in MAH-MCA-CET. Please verify the latest detailed criteria here: https://www.pccoe.org/admissions/mca/eligibility",
+          "You typically need a relevant UG degree with Maths and a valid MAH-MCA-CET score. Specific requirements are listed on our eligibility page: https://www.pccoe.org/admissions/mca/eligibility"
+        ]
+      },
+    {
+      "tag": "admission_dates",
+      "patterns": [
+        "What are the important dates for MCA admission?",
+        "When does the application start?",
+        "Admission deadline?",
+        "MCA admission schedule",
+        "Last date to apply for MCA"
+      ],
+      "responses": [
+        "Important dates (application start/end, exam, CAP rounds) are announced by DTE Maharashtra and PCCOE. Please check the official portals for the latest schedule (around May-July usually): https://www.pccoe.org/admissions/mca/schedule",
+        "Keep an eye on the DTE Maharashtra website (cetcell.mahacet.org) and the PCCOE admissions page for the official MCA admission schedule: https://www.pccoe.org/admissions/notifications"
+      ]
+    },
+    {
+      "tag": "fee_structure",
+      "patterns": [
+        "What is the fee for the MCA program?",
+        "MCA course fees?",
+        "How much does MCA cost at PCCOE?",
+        "Fee details",
+        "Payment structure"
+      ],
+      "responses": [
+        "The fee structure is approved by the Fee Regulating Authority (FRA), Maharashtra. For the current academic year, the approximate tuition fee is around INR 1,10,000 per year, plus other fees. Find the detailed official breakdown here: https://www.pccoe.org/admissions/mca/fees",
+        "For the latest MCA fee details, including tuition, development, and other charges, please visit: https://www.pccoe.org/admissions/mca/fees. Scholarship information may also be available."
+      ]
+    },
+    {
+      "tag": "course_duration",
+      "patterns": [
+        "How long is the MCA program?",
+        "What is the duration of the MCA course?",
+        "How many years is MCA at PCCOE?",
+        "Course length"
+      ],
+      "responses": [
+        "The Master of Computer Applications (MCA) program at PCCOE is a 2-year full-time postgraduate course.",
+        "MCA is a 2-year program, divided into four semesters."
+      ]
+    },
+    {
+      "tag": "syllabus",
+      "patterns": [
+        "What is the syllabus for MCA?",
+        "MCA course structure?",
+        "Subjects in MCA?",
+        "Curriculum details",
+        "What do you teach in MCA?"
+      ],
+      "responses": [
+        "The MCA syllabus is affiliated with Savitribai Phule Pune University (SPPU) and covers subjects like Advanced Java, Data Science, Cloud Computing, AI/ML, Software Engineering, etc. Find the detailed semester-wise syllabus here: https://www.pccoe.org/mca/academics/syllabus",
+        "Our curriculum follows SPPU guidelines. Check the detailed syllabus on the college website: https://www.pccoe.org/mca/academics/syllabus"
+      ]
+    },
+    {
+      "tag": "placement_info",
+      "patterns": [
+        "What about placements for MCA?",
+        "Does PCCOE provide placements for MCA students?",
+        "Which companies recruit MCA students?",
+        "Placement statistics",
+        "Average package for MCA",
+        "Job opportunities after MCA from PCCOE"
+      ],
+      "responses": [
+        "PCCOE has a strong Training and Placement cell. MCA students get excellent opportunities. Companies like Infosys, Capgemini, Persistent Systems, Wipro, TCS, etc., recruit from our campus. See details here: https://www.pccoe.org/placements/mca-stats",
+        "We have a dedicated T&P cell and a good placement record for MCA. For details on recruiters, packages, and stats, visit: https://www.pccoe.org/placements/overview"
+      ]
+    },
+    {
+        "tag": "faculty_info",
+        "patterns": [
+          "Tell me about the faculty",
+          "Who are the professors?",
+          "MCA faculty details",
+          "Teaching staff information"
+        ],
+        "responses": [
+          "Our MCA department has experienced faculty with PhDs and industry experience. You can find faculty profiles here: https://www.pccoe.org/mca/faculty",
+          "We pride ourselves on our dedicated teaching staff. Meet our faculty and check their expertise here: https://www.pccoe.org/mca/faculty"
+        ]
+      },
+    {
+        "tag": "infrastructure",
+        "patterns": [
+          "What labs are available?",
+          "Tell me about the infrastructure",
+          "Computer lab facilities?",
+          "Library resources for MCA?",
+          "Classroom facilities"
+        ],
+        "responses": [
+          "The MCA department has dedicated labs like the OS Lab, DBMS Lab, Networking Lab, Project Lab, and AI/ML Center of Excellence, equipped with modern hardware and software. We also have smart classrooms and extensive library access. Explore more: https://www.pccoe.org/infrastructure/labs",
+          "We provide excellent facilities including advanced computer labs, seminar halls, high-speed Wi-Fi, and digital library resources. Details: https://www.pccoe.org/about/infrastructure"
+        ]
+      },
+    {
+      "tag": "contact_info",
+      "patterns": [
+        "How can I contact the MCA department?",
+        "Contact details?",
+        "Phone number for MCA admission?",
+        "Department email address",
+        "Who to contact for queries?"
+      ],
+      "responses": [
+        "You can contact the MCA Department office at +91-20-276531XX (Ext: 555) or email hod.mca@pccoe.org. For admissions, call +91-98XXXXXXXX / +91-20-276531YY or email admissions@pccoe.org. Address: PCCOE, Nigdi, Pune - 411044. More details: https://www.pccoe.org/contact. If your query is specific and not covered, you can also use this form: https://forms.gle/2238s5ojoxo298JeA"
+      ]
+    },
+     {
+      "tag": "location",
+      "patterns": [
+        "Where is PCCOE located?",
+        "How to reach PCCOE?",
+        "College address?",
+        "Directions to the college",
+        "Is there railway station nearby?"
+      ],
+      "responses": [
+        "Pimpri Chinchwad College of Engineering (PCCOE) is located near Akurdi Railway Station, Sector 26, Pradhikaran, Nigdi, Pimpri-Chinchwad, Pune - 411044. Google Maps: https://goo.gl/maps/abcdef12345",
+        "PCCOE is in Nigdi, Pimpri-Chinchwad, Pune (411044), very close to Akurdi Railway Station and accessible by local buses."
+      ]
+    },
+    {
+      "tag": "google_form_query",
+       "patterns": [
+        "My question is not answered",
+        "I need more specific help",
+        "Can I submit my query somewhere?",
+        "Need to contact someone directly"
+       ],
+       "responses": [
+          "If I couldn't resolve your issue or you need to contact the department directly with a specific query, please fill out this form: https://forms.gle/2238s5ojoxo298JeA. They will get back to you.",
+          "For detailed or unresolved queries, please use this contact form: https://forms.gle/2238s5ojoxo298JeA "
+       ]
+    },
+    {
+      "tag": "unknown",
+      "patterns": [],
+      "responses": [
+        "Sorry, I didn't quite understand that. Could you please rephrase your question about the MCA program at PCCOE?",
+        "I can primarily help with questions about PCCOE MCA admissions, fees, syllabus, faculty, placements, and contact info. Could you ask about one of those topics?",
+        "Hmm, I'm not programmed to answer that. You might find the answer on the official website (www.pccoe.org) or by contacting the department via this form: https://forms.gle/2238s5ojoxo298JeA"
+      ]
+    },
+    {
+      "tag": "clickable_links_example",
+      "patterns": [
+        "Test Clickable"
+      ],
+      "responses": [
+        "You can find the detailed MCA syllabus here: https://www.pccoe.org/mca/academics/syllabus",
+        "Check out the MCA course structure [here](https://www.pccoe.org/mca/academics/syllabus)."
+      ],
+      "links": [
+        {
+          "url": "https://www.pccoe.org/mca/academics/syllabus",
+          "display_text": "here"
+        }
+      ]
+    }
+
+  ]
+}
